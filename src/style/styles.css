@@ -1,0 +1,214 @@
+.card {
+  height: 100vh;
+}
+.Top-side {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  height: 40%;
+  border-radius: 0 0 2rem 2rem;
+  display: grid;
+  place-items: center;
+}
+.title {
+  color: hsl(0, 0%, 100%);
+  opacity: 0.7;
+  font-size: 1.25rem;
+}
+.circle {
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    hsla(241, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.circle-content {
+  color: hsl(0, 0%, 100%);
+  font-size: 3.25rem;
+  font-weight: 800;
+}
+.number {
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.5;
+  color: hsl(221, 100%, 96%);
+  display: block;
+}
+.great {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.75rem;
+  font-weight: 500;
+  padding: 0 1.5rem;
+  max-width: 31.25rem;
+}
+
+.great-span {
+  color: hsl(221, 100%, 96%);
+  opacity: 0.7;
+  font-size: 1.125rem;
+  display: block;
+}
+
+.Bottom-side {
+  padding: 1.25rem;
+}
+.Bottom-side > p {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: start;
+}
+.Summ1,
+.Summ2,
+.Summ3,
+.Summ4 {
+  border-radius: 0.75rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.625rem;
+}
+.Summ1 {
+  background: hsla(0, 100%, 67%, 0.07);
+}
+.Summ1 img {
+  width: 1.5rem;
+}
+.under-summ1 span {
+  color: hsl(0, 100%, 67%);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+.under-summ1,
+.under-summ2,
+.under-summ3,
+.under-summ4 {
+  display: flex;
+}
+
+.Summ2 {
+  background: hsla(39, 100%, 56%, 0.07);
+}
+.Summ2 img {
+  width: 1.5rem;
+}
+.Summ2 span {
+  color: hsl(39, 100%, 56%);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+
+.Summ3 {
+  background: hsla(166, 100%, 37%, 0.07);
+}
+.Summ3 img {
+  width: 1.5rem;
+}
+.Summ3 span {
+  color: hsl(166, 100%, 37%);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+
+.Summ4 {
+  background: hsla(234, 85%, 45%, 0.07);
+}
+.Summ4 img {
+  width: 1.5rem;
+}
+.Summ4 span {
+  color: hsl(234, 85%, 45%);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+
+button {
+  border-radius: 2rem;
+  width: 100%;
+  height: 3rem;
+  margin: 1rem 0;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.0625rem;
+}
+button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.score {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: hsla(224, 30%, 27%, 71%);
+}
+.score span {
+  color: hsl(224, 30%, 27%);
+}
+
+@media screen and (min-width: 650px) {
+  section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  .card {
+    display: flex;
+    border-radius: 1.25rem;
+    width: 35rem;
+    height: 27rem;
+    box-shadow: 0 15px 50px hsl(234deg 85% 45% / 20%);
+    position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+  }
+  .Top-side {
+    height: 100%;
+    width: 50%;
+    border-radius: 1.25rem;
+    padding: 1rem;
+  }
+  .Bottom-side {
+    padding: 1.5rem;
+    width: 50%;
+  }
+  .Bottom-side > p {
+    margin-top: 1rem;
+  }
+  .circle {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  .great {
+    font-size: 1.5rem;
+  }
+  .great-span {
+    font-size: 0.875rem;
+  }
+  .Summ1,
+  .Summ2,
+  .Summ3,
+  .Summ4 {
+    height: 3rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    height: 2.5rem;
+  }
+
+  @keyframes example {
+    from {top: -100px;}
+    to {top: 25px; }
+  }
+}
