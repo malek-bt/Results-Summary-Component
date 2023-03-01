@@ -24,8 +24,8 @@ This  project is a responsive Results summary component.
 
 ### Links
 
-- [View the live site]()
-- [View the Frontend Mentor challenge](https://www.frontendmentor.io/challenges/ping-coming-soon-page-8JqbgoU62)
+- [View the live site](https://malek-bt.github.io/Results-Summary-Component/)
+- [View the Frontend Mentor challenge](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
 
 ## Features
 
